@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 namespace web.api {
     public class Program {
         public static void Main (string[] args) {
-            // Console.WriteLine (DateTime.Now.ToString () + ",TestJob run...");
+            Console.WriteLine (DateTime.Now.ToString () + ",TestJob run...");
             CreateWebHostBuilder (args).Build ().Run ();
         }
 
