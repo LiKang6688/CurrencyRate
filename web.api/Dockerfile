@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:2.2-sdk
+FROM microsoft/dotnet:2.2-aspnetcore-runtime
 WORKDIR /app
  
 # Copy csproj and restore as distinct layers
